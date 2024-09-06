@@ -1,9 +1,12 @@
 const optionImages = document.querySelectorAll(".option-image")
+const container = document.querySelector(".container")
 
 
 function handleOptionClick(event) {
 
-    console.log("event")
+    const clickedImage = event.currentTarget
+
+    container.classList.add("start")
 }
 
 
